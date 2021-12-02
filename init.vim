@@ -3,12 +3,7 @@ call plug#begin(stdpath('data') . '/plugged')
 Plug 'kyazdani42/nvim-web-devicons'
 Plug 'mhartington/oceanic-next'
 Plug 'neoclide/coc.nvim', {'branch': 'release'}
-Plug 'nvim-lua/plenary.nvim'
-Plug 'nvim-telescope/telescope.nvim'
-Plug 'nvim-telescope/telescope-fzf-native.nvim', { 'do': 'make' }
 Plug 'nvim-treesitter/nvim-treesitter', {'do': ':TSUpdate'}
-Plug 'karb94/neoscroll.nvim'
-Plug 'glepnir/dashboard-nvim'
 Plug 'nvim-lualine/lualine.nvim'
 Plug 'tpope/vim-obsession'
 Plug 'dhruvasagar/vim-prosession'
@@ -29,7 +24,7 @@ autocmd FileType css set number
 autocmd FileType html set number
 
 " Mouse support
-set mouse=a
+" set mouse=a
 
 " oceanic-next configuration
 set termguicolors
@@ -217,22 +212,8 @@ nnoremap <silent><nowait> <space>k  :<C-u>CocPrev<CR>
 " Resume latest coc list.
 nnoremap <silent><nowait> <space>p  :<C-u>CocListResume<CR>
 
-" Import telescope configuration
-lua require("_telescope")
-
-" Find file using telescope command-line sugar
-nnoremap <leader>ff <cmd>Telescope find_files<cr>
-nnoremap <leader>fg <cmd>Telescope live_grep<cr>
-nnoremap <leader>fb <cmd>Telescope buffers<cr>
-nnoremap <leader>fh <cmd>Telescope help_tags<cr>
-
 " Import treesitter configuration
 lua require("_tree-sitter")
-
-lua require('neoscroll').setup()
-
-" dashboard configuration 
-let g:dashboard_default_executive ='telescope'
 
 " lualine configuration
 lua require("_lualine")
