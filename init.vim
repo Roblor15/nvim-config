@@ -34,6 +34,7 @@ autocmd FileType python set number
 autocmd FileType java set number
 autocmd FileType css set number
 autocmd FileType html set number
+autocmd FileType rust set number
 
 " Mouse support
 set mouse=a
@@ -61,7 +62,8 @@ let g:coc_global_extensions = [
       \'coc-json', 
       \'coc-css',
       \'coc-clangd',
-      \'coc-git'
+      \'coc-git',
+      \'coc-rust-analyzer'
       \]
 " TextEdit might fail if hidden is not set.
 set hidden
