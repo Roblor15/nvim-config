@@ -1,25 +1,27 @@
 {
-  "coc.preferences.formatOnType": true,
-  "coc.preferences.formatOnTypeFiletypes": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "css",
-    "rust"
-  ],
-  "coc.preferences.formatOnSaveFiletypes": [
-    "javascript",
-    "javascriptreact",
-    "typescript",
-    "typescriptreact",
-    "css",
-    "json",
-    "rust"
-  ],
-  "typescript.autoClosingTags": true,
-  "javascript.autoClosingTags": true,
-  "eslint.autoFixOnSave": true,
-  "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
-  "rust-analyzer.checkOnSave.enable": true
+    "coc.preferences.formatOnType": true,
+    "coc.preferences.formatOnTypeFiletypes": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "css",
+        "rust"
+    ],
+    "coc.preferences.formatOnSaveFiletypes": [
+        "javascript",
+        "javascriptreact",
+        "typescript",
+        "typescriptreact",
+        "css",
+        "json",
+        "rust"
+    ],
+    "typescript.autoClosingTags": true,
+    "javascript.autoClosingTags": true,
+    "eslint.autoFixOnSave": true,
+    "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
+    "rust-analyzer.checkOnSave.enable": true,
+    "prettier.singleQuote": true,
+    "prettier.tabWidth": 4
 }

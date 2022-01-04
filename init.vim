@@ -21,6 +21,7 @@ Plug 'tpope/vim-obsession'
 Plug 'dhruvasagar/vim-prosession'
 Plug 'kyazdani42/nvim-tree.lua'
 Plug 'wesQ3/vim-windowswap'
+Plug 'KabbAmine/vCoolor.vim'
 
 call plug#end()
 
@@ -326,3 +327,5 @@ highlight NvimTreeFolderIcon guibg=blue
 
 lua require("_nvim-tree")
 
+"mapping vCoolor
+let g:vcoolor_custom_picker = 'zenity --title "custom" --color-selection --color '
