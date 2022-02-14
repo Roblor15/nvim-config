@@ -6,7 +6,8 @@
         "typescript",
         "typescriptreact",
         "css",
-        "rust"
+        "rust",
+        "dart"
     ],
     "coc.preferences.formatOnSaveFiletypes": [
         "javascript",
@@ -15,7 +16,8 @@
         "typescriptreact",
         "css",
         "json",
-        "rust"
+        "rust",
+        "dart"
     ],
     "typescript.autoClosingTags": true,
     "javascript.autoClosingTags": true,
