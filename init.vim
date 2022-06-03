@@ -25,18 +25,6 @@ Plug 'KabbAmine/vCoolor.vim'
 
 call plug#end()
 
-autocmd FileType javascript set number
-autocmd FileType typescript set number
-autocmd FileType javascriptreact set number
-autocmd FileType typescriptreact set number
-autocmd FileType c set number
-autocmd FileType cpp set number
-autocmd FileType python set number
-autocmd FileType java set number
-autocmd FileType css set number
-autocmd FileType html set number
-autocmd FileType rust set number
-
 " Mouse support
 set mouse=a
 
@@ -48,7 +36,23 @@ colorscheme OceanicNext
 " Tabs
 set tabstop=4
 set shiftwidth=4
-set expandtab 
+set expandtab
+
+autocmd FileType javascript set number
+autocmd FileType typescript set number
+autocmd FileType javascriptreact set number
+autocmd FileType typescriptreact set number
+autocmd FileType c set number
+autocmd FileType cpp set number
+autocmd FileType python set number
+autocmd FileType java set number
+autocmd FileType css set number
+autocmd FileType html set number
+autocmd FileType rust set number
+autocmd FileType sh set number
+autocmd FileType dart set number
+autocmd FileType make set number
+autocmd FileType make set noexpandtab
 
 " Coc
 let g:coc_global_extensions = [
