@@ -27,5 +27,6 @@
     "clangd.path": "~/.config/coc/extensions/coc-clangd-data/install/13.0.0/clangd_13.0.0/bin/clangd",
     "rust-analyzer.checkOnSave.enable": true,
     "prettier.singleQuote": true,
-    "prettier.tabWidth": 4
+    "prettier.tabWidth": 4,
+    "Lua.telemetry.enable": false
 }

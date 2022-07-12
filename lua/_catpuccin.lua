@@ -1,0 +1,2 @@
+local catppuccin = require("catppuccin")
+
