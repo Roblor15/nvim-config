@@ -39,6 +39,8 @@ set tabstop=4
 set shiftwidth=4
 set expandtab
 
+set so=3
+
 autocmd FileType javascript set number
 autocmd FileType typescript set number
 autocmd FileType javascriptreact set number
