@@ -1,11 +1,19 @@
 {
     "coc.preferences.formatOnType": true,
+    "coc.preferences.formatOnSave": true,
     "typescript.autoClosingTags": true,
     "javascript.autoClosingTags": true,
     "eslint.autoFixOnSave": true,
     "clangd.path": "clangd",
-    "rust-analyzer.checkOnSave.enable": true,
+    "rust-analyzer.checkOnSave": true,
     "prettier.singleQuote": true,
     "prettier.tabWidth": 4,
-    "Lua.telemetry.enable": false
+    "languageserver": {
+        "nix": {
+            "command": "rnix-lsp",
+            "filetypes": ["nix"]
+        }
+    },
+    "zig.path": "zls",
+    "zig.enabled": true
 }

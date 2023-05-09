@@ -41,21 +41,7 @@ set expandtab
 
 set so=3
 
-autocmd FileType javascript set number
-autocmd FileType typescript set number
-autocmd FileType javascriptreact set number
-autocmd FileType typescriptreact set number
-autocmd FileType c set number
-autocmd FileType cpp set number
-autocmd FileType python set number
-autocmd FileType java set number
-autocmd FileType css set number
-autocmd FileType html set number
-autocmd FileType rust set number
-autocmd FileType sh set number
-autocmd FileType dart set number
-autocmd FileType make set number
-autocmd FileType make set noexpandtab
+set number
 
 " Coc
 let g:coc_global_extensions = [
