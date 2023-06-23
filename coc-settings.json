@@ -15,5 +15,6 @@
         }
     },
     "zig.path": "zls",
-    "zig.enabled": true
+    "zig.enabled": true,
+    "svelte.enable-ts-plugin": true
 }

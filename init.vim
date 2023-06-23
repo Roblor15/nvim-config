@@ -60,7 +60,8 @@ let g:coc_global_extensions = [
       \'coc-rust-analyzer',
       \'coc-flutter',
       \'coc-sh',
-      \'coc-java'
+      \'coc-java',
+      \'coc-svelte',
       \]
 " TextEdit might fail if hidden is not set.
 set hidden
